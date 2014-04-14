@@ -11,10 +11,18 @@ This tools make you intall eclipse plugins simply and easily.
 links方式安装eclipse插件，基本步骤如下：
 
 > * 下载插件并解压。
-> * 在eclipse根目录下，新建如下目录结构：myplugins/pluginName/eclipse/。
+> * 在eclipse根目录下，新建如下目录结构：
+```
+	myplugins/
+		pluginName/
+			eclipse/
+```
 > * 将插件中的features和plugins拷贝到myplugins/pluginName/eclipse下。
 > * 在eclipse根目录下，新建links文件夹。
-> * 在links目录下新建文本文件，写入如下内容：path=D:/eclipse/myplugins/pluginName。
+> * 在links目录下新建文本文件，写入如下内容：
+```
+	path=D:/eclipse/myplugins/pluginName
+```
 > * 启动eclipse！大功告成！
 
 本工具仅仅是参考上述步骤，实现自动处理而已。与手工配置等价。
@@ -33,14 +41,14 @@ links方式安装eclipse插件，基本步骤如下：
 > * 拷贝上述文件结构到eclipse根目录。
 > * 下载插件并解压，得到如下目录结构：
 ```
-       update-site/
-			features/
-			plugins/
+   update-site/
+		features/
+		plugins/
 ```
 > * 拷贝update-site文件夹到linkme文件夹
 > * 修改update-site文件夹名称为eclipse插件名称，比如scalaIDE
 > * 双击linkme.bat，等待提示安装成功。
-> * 打开eclipse插件就安装完了。以后就可以按照这么弄了
+> * 启动eclipse。以后就可以按照这么弄了
 
 ###声明
 

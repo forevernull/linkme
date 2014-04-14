@@ -32,11 +32,11 @@ links方式安装eclipse插件，基本步骤如下：
 >       linkme/linkme.bat
 > * 拷贝上述文件结构到eclipse根目录。
 > * 下载插件并解压，得到如下目录结构：
-··
+```
        update-site/
 			features/
 			plugins/
-··
+```
 > * 拷贝update-site文件夹到linkme文件夹
 > * 修改update-site文件夹名称为eclipse插件名称，比如scalaIDE
 > * 双击linkme.bat，等待提示安装成功。

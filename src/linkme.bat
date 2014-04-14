@@ -28,8 +28,8 @@ IF not exist %pluginName% (
 	cd links
 	echo path=%cd:\=\\%\\%pluginName% > %pluginName%
 	echo [SUCCESS] : %pluginName% is installed! Complete!
+	rd /s/q %pluginPath%
 ) else (
 	echo [INFO ]: '%pluginName%' - This plugin has installed!
 )
-rd /s/q %pluginPath%
 pause

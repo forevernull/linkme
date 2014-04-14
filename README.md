@@ -36,7 +36,7 @@ path=D:/eclipse/myplugins/pluginName
 
 ###具体操作
 
-> * 下载linkme.rar,解压得到如下文件结构：
+> * 下载linkme.zip,解压得到如下文件结构：
 >       linkme/linkme.bat
 > * 拷贝上述文件结构到eclipse根目录。
 > * 下载插件并解压，得到如下目录结构：

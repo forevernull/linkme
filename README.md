@@ -31,13 +31,13 @@ path=D:/eclipse/myplugins/pluginName
 
 ###基本步骤
 
-下载解压linkme->拷贝到eclipse目录下->下载解压插件update-site->改名->拷贝到linkme目录下->运行linkme.bat。完事！
+下载解压linkme->拷贝到eclipse目录下->下载解压插件update-site->改名->拷贝到linkme目录下->运行linkme.bat 或 ./linkme.sh。完事！
 
 
 ###具体操作
 
 > * 下载linkme.zip,解压得到如下文件结构：
->       linkme/linkme.bat
+>       linkme/linkme.bat  或者 linkme/linkme.sh
 > * 拷贝上述文件结构到eclipse根目录。
 > * 下载插件并解压，得到如下目录结构：
 ```
